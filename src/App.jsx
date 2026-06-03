@@ -1,21 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Account from "./pages/Account";
-
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/account" element={<Account />} />
-      </Routes>
-    </BrowserRouter>
+    <h1
+      style={{
+        color: "red",
+        textAlign: "center",
+        marginTop: "100px"
+      }}
+    >
+      NETLIFY TEST
+    </h1>
   );
 }
 
